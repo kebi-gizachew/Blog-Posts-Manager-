@@ -19,6 +19,8 @@ A Flutter CRUD application for managing blog posts against the [JSONPlaceholder]
 ![An editing feature](assets/edits.jpg)
 ![A deleting feature](assets/deleting.jpg)
 ![A snackbar](assets/snackbar.jpg)
+![A snackbar](assets/adding_post.jpg)
+![A snackbar](assets/update_post.jpg)
 
 ## Project structure
 
