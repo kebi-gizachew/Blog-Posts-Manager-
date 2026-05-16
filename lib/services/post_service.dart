@@ -82,7 +82,7 @@ class PostService {
   Future<void> deletePost(int id) async {
     try {
       final response = await _client.delete(_postUri(id));
-      if (response.statusCode < 200  response.statusCode >= 300) {
+      if (response.statusCode < 200 || response.statusCode >= 300) {
         throw ApiException(
           'Failed to delete post.',
           statusCode: response.statusCode,
@@ -116,7 +116,7 @@ class PostService {
   }
 
   Post _parseSingleResponse(http.Response response) {
-    if (response.statusCode < 200  response.statusCode >= 300) {
+    if (response.statusCode < 200 || response.statusCode >= 300) {
       throw ApiException(
         'Server rejected the request.',
         statusCode: response.statusCode,
