@@ -13,6 +13,13 @@ A Flutter CRUD application for managing blog posts against the [JSONPlaceholder]
 - Snackbar feedback for success and failure
 - Material 3 UI with pull-to-refresh
 
+## Screen Shots Of the UI
+
+![Main screen](assets/display.jpg)
+![An editing feature](assets/edits.jpg)
+![A deleting feature](assets/deleting.jpg)
+![A snackbar](assets/snackbar.jpg)
+
 ## Project structure
 
 ```
