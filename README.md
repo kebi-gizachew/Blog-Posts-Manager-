@@ -118,20 +118,6 @@ JSONPlaceholder is a **fake** REST API: create/update/delete requests succeed bu
 
 Base URL: `https://jsonplaceholder.typicode.com/posts`
 
-## Screenshots
-
-_Add screenshots of your running app here._
-
-| Home — post list | Create / edit form |
-|------------------|--------------------|
-| `screenshots/home.png` | `screenshots/form.png` |
-
-| Delete confirmation | Error state |
-|-----------------------|-------------|
-| `screenshots/delete.png` | `screenshots/error.png` |
-
-> Tip: create a `screenshots/` folder in the project root and drop PNG captures from your emulator after `flutter run`.
-
 ## Architecture overview
 
 ```
